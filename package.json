@@ -1,0 +1,39 @@
+{
+  "name": "mern-crud-auth",
+  "version": "0.1.0",
+  "description": "CRUD in NodeJS with MongoDB and Auth",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+	"start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/anxelli/mern-crud-auth.git"
+  },
+  "keywords": [
+	"nodejs", "mongodb", "express", "auth"
+  ],
+  "author": {
+	"name": "Ángel Amaro",
+	"email": "angel_dev@arte-digital.mx",
+	"company": "arteDigitalMX",
+	"url":  "https://arte-digital.mx"
+  },
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "morgan": "^1.10.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
